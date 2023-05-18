@@ -1,0 +1,147 @@
+<meta charset="UTF-8">
+<script>
+
+
+    document.write("A idade do Flavio é ");
+    document.write("<br>");
+    document.write(18 + 20);
+    document.write("<br>");
+    document.write("18" + 20);  
+    document.write("<br>");
+
+    document.write("<br>");
+    document.write("Flavio nasceu em");
+    document.write(2016 - 39);
+    document.write("<br>");
+
+    document.write("<br>");
+    document.write("A média das idades é ");
+    document.write((20 + 10 + 30)/3);
+    document.write("<br>");
+
+    document.write("<br>");
+    document.write("A soma das idades é " + (20 + 10 + 30));
+    document.write("<br>");
+
+    document.write("<br>");
+    document.write("Flavio nasceu em " + (2016 - 39));
+    document.write("<br>");
+
+    document.write("<br>");
+    document.write("Luis nasceu em " + (2016 - 20));
+    document.write("<br>");
+
+    document.write("<br>");
+    document.write("Felipe nasceu em " + (2016 - 45));
+    document.write("<br>");
+
+    document.write("<br>");
+    document.write(10 + 20);
+    document.write("<br>");
+
+    document.write("<br>");
+    document.write("<h1>Seja bem-vindo</h1>");
+    document.write("<br>");
+
+    document.write("<br>");
+    document.write((200 + 100 + 300 + 400)/4);
+    document.write("<br>");
+
+    document.write("<br>");
+    document.write("A média do valor gasto com as viagens é ") ;
+    document.write( (200 + 100 + 300 + 400) / 4);
+    document.write("<br>");
+
+    document.write("<br>");
+    document.write("Eu acertei: " + 15/50*100 );
+    document.write("<br>");
+
+    document.write("<br>");
+    document.write("A" + "B" + 20 + 10 + "C" + (5 + 10) + "D");
+    document.write("<br>");
+
+
+    // Variaveis 
+    
+    var ano = 2017;
+    document.write("<br>");
+    document.write("Flavio tem " + (ano - 1977) + " anos");
+    document.write("<br>");
+
+    document.write("<br>");
+    document.write("Luis tem " + (ano - 1996) + " anos");
+    document.write("<br>");
+    
+    ano = 2018
+    document.write("<br>");
+    document.write("Felipe tem " + (ano - 1976) + " anos");
+    document.write("<br>");
+
+    var idadeFlavio = 39;
+    var idadeLuis = 20;
+    var idadeFelipe = 41;
+    var media = (idadeFlavio + idadeLuis + idadeFelipe)/3;
+    document.write("<br>");
+    document.write("A media das idades é " + Math.round (media));
+    document.write("<br>");
+
+    document.write("<br>");
+    var nome = "Flavio";
+    document.write ("A idade de " + nome + " é " + idadeFlavio);
+    document.write("<br>");
+    document.write("<br>");
+
+    // Função
+
+    function pulaLinha() {
+
+        document.write ("<br>");
+        document.write ("<br>");
+    }
+
+
+    function mostra (idade) {
+        document.write (idade);
+        pulaLinha();
+    }
+
+    var ano = 2017;
+    pulaLinha ();
+    document.write("Flavio tem " + (ano - 1977) + " anos");
+    pulaLinha ();
+
+    pulaLinha ();
+    document.write("Luis tem " + (ano - 1996) + " anos");
+    pulaLinha ();
+    
+    ano = 2018
+    pulaLinha ();
+    document.write("Felipe tem " + (ano - 1976) + " anos");
+    pulaLinha ();
+
+
+    //Função com parametros
+
+
+    function mostra (idade) {
+        document.write (idade);
+        pulaLinha();
+    }
+    var ano = 2017;
+    //pulaLinha ();
+   // document.write("Flavio tem " + (ano - 1977) + " anos");
+    mostra ("Flavio tem " + (ano - 1977) + " anos")
+    //pulaLinha ();
+
+    //pulaLinha ();
+   // document.write("Luis tem " + (ano - 1996) + " anos");
+    mostra ("Luis tem " + (ano - 1996) + " anos")
+    //pulaLinha ();
+    
+    ano = 2018
+    //pulaLinha ();
+    //document.write("Felipe tem " + (ano - 1976) + " anos");
+    mostra ("Felipe tem " + (ano - 1976) + " anos")
+    //pulaLinha ();
+
+</script>
